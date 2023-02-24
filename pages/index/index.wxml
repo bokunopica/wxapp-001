@@ -2,7 +2,23 @@
 <view class="container">
     <!-- 开屏图 -->
     <view class="open-card" wx-if="{{needOpen}}" style="opacity: {{openOpacity}};">
-        <button class="open-card-jump-btn" style="padding:0;border: none;width: 80px;float:right;margin-top:5px;margin-right:5px" >跳过({{jumpCount}}s)</button>
+        <image src="https://7072-prod-2g01805zff9ff441-1316987692.tcb.qcloud.la/demo02.png?sign=56d9a0ef6170c69c5df73ae980b9252f&t=1677224583" class="open-card-img" mode=""/>
+        <button class="open-card-jump-btn" bindtap="jumpOpen">跳过({{jumpCount}}s)</button>
     </view>
     <h1>一些内容</h1>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
+    <ul>1</ul>
 </view>

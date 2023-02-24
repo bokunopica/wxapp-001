@@ -6,13 +6,7 @@ Page({
   data: {
       jumpCount: 5, // 跳过倒计时
       needOpen: true, // 开屏状态 false-不需要开屏 true-需要开屏
-      openOpacity: 100, // 开屏不透明度-用于渐变
-  },
-  // 事件处理函数
-  bindViewTap() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+      openOpacity: 100 // 开屏不透明度-用于渐变
   },
 
   jumpOpen:function(){
