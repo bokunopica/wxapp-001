@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <!-- 开屏图 -->
+    <view class="open-card" wx-if="{{needOpen}}" style="opacity: {{openOpacity}};">
+        <button class="open-card-jump-btn" style="padding:0;border: none;width: 80px;float:right;margin-top:5px;margin-right:5px" >跳过({{jumpCount}}s)</button>
+    </view>
+    <h1>一些内容</h1>
+</view>

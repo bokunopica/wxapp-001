@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <h1>detail page</h1>
+</view>
